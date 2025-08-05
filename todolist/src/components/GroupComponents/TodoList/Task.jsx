@@ -6,9 +6,7 @@ function Task(props) {
   function changeName(event) {
     let newName = prompt("Enter the new name: ");
     //event.target.textContent = newName;
-    newName
-      ? (event.target.textContent = newName)
-      : alert("No new name given.");
+    newName ? (event.target.textContent = newName) : alert("No name given.");
   }
 
   function handleDisplay() {
