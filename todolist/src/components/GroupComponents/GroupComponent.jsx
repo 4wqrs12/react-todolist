@@ -1,4 +1,4 @@
-import TopBar from "./TodoList/TopBar";
+import TodoList from "./TodoList/TodoList";
 import { useState } from "react";
 
 function GroupComponent(props) {
@@ -13,7 +13,7 @@ function GroupComponent(props) {
     <div className="group">
       <h2 className="group-title">{name}</h2>
       <hr />
-      <TopBar />
+      <TodoList />
       <hr />
       <button className="btn" onClick={handleClick}>
         Rename
